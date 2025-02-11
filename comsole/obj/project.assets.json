@@ -8,26 +8,34 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/vstester/.nuget/packages/": {}
+    "C:\\Users\\v-ouyoke\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vstester/Projects/comsole/comsole/comsole.csproj",
+      "projectUniqueName": "C:\\Users\\v-ouyoke\\Source\\Repos\\vs\\comsole\\comsole.csproj",
       "projectName": "comsole",
-      "projectPath": "/Users/vstester/Projects/comsole/comsole/comsole.csproj",
-      "packagesPath": "/Users/vstester/.nuget/packages/",
-      "outputPath": "/Users/vstester/Projects/comsole/comsole/obj/",
+      "projectPath": "C:\\Users\\v-ouyoke\\Source\\Repos\\vs\\comsole\\comsole.csproj",
+      "packagesPath": "C:\\Users\\v-ouyoke\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\v-ouyoke\\Source\\Repos\\vs\\comsole\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/vstester/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\v-ouyoke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet9/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -39,7 +47,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net6.0": {
@@ -55,12 +69,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3yf293T5JI3bK6uxBeu4MENR1s1EQkgW5gjpIrZbOvgx2VQQlfMgWD0uHvpBJZdPDyyYTT8QHp728jzyrnrpGQ==",
+  "dgSpecHash": "jgS9MHWd7kA=",
   "success": true,
-  "projectFilePath": "/Users/vstester/Projects/comsole/comsole/comsole.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\v-ouyoke\\Source\\Repos\\vs\\comsole\\comsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\v-ouyoke\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\v-ouyoke\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\v-ouyoke\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\v-ouyoke\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

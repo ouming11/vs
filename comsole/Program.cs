@@ -50,7 +50,7 @@ class MainClass
 
         // Print result.
         if (result == -1)
-            Console.WriteLine("Input must be >= 0 and <= 20.");
+            Console.WriteLine("Input must be >= 0 and <= 25.");
         else
             Console.WriteLine($"The Factorial of {num} is {result}.");
 
@@ -59,3 +59,4 @@ class MainClass
 }
 // If 3 is entered on command line, the
 // output reads: The factorial of 3 is 6.
+//This is a test/
